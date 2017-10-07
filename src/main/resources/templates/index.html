@@ -1,19 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"/>
     <title>Daniels Crap</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/bootstrap-theme.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" th:href="@{/assets/css/bootstrap.css}" href="../static/assets/css/bootstrap.css"/>
+    <link rel="stylesheet" th:href="@{/assets/css/bootstrap-theme.css}"
+          href="../static/assets/css/bootstrap-theme.css"/>
+    <link rel="stylesheet" th:href="@{/assets/css/index.css}" href="../static/assets/css/index.css"/>
 </head>
 <body>
-<div>
-    <div class="row" style="background-color: lightblue; padding-left: 20px; padding-top: 10px">
+
+<div class="row">
+    <div class="col-lg-12" style="background-color: lightblue;">
         <h1>someshit</h1>
         <p>blah</p>
     </div>
-    <div class="row" style="background-color: lawngreen; padding-left: 20px">
+</div>
+<div class="row">
+    <div class="col-lg-12" style="background-color: lightgreen;">
         <h1>some more shit</h1>
         <p>blah</p>
         <p>blah</p>
@@ -36,10 +40,10 @@
     <div id="navbar" class="navbar-collapse collapse">
         <form class="navbar-form navbar-right">
             <div class="form-group">
-                <input type="text" placeholder="Email" class="form-control">
+                <input type="text" placeholder="Email" class="form-control"/>
             </div>
             <div class="form-group">
-                <input type="password" placeholder="Password" class="form-control">
+                <input type="password" placeholder="Password" class="form-control"/>
             </div>
             <button type="submit" class="btn btn-success">Sign in</button>
         </form>
@@ -82,14 +86,14 @@
     </div>
 </div>
 
-<hr>
+<hr/>
 
 <footer>
     <p>&copy; 2016 Company, Inc.</p>
 </footer>
 
 </body>
-<script src="js/jquery-1.11.2.min.js"></script>
-<script src="js/bootstrap.js"></script>
-<script src="js/index.js"></script>
+<script th:src="@{/assets/js/jquery-1.11.2.min.js}" src="../static/assets/js/jquery-1.11.2.min.js"></script>
+<script th:src="@{/assets/js/bootstrap.js}" src="../static/assets/js/bootstrap.js"></script>
+<script th:src="@{/assets/js/index.js}" src="../static/assets/js/index.js"></script>
 </html>
