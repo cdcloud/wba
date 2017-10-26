@@ -2,7 +2,7 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8"/>
-    <title>Property Details</title>
+    <title>Three Bears Log Cabin</title>
     <link rel="stylesheet" th:href="@{/assets/css/bootstrap.css}" href="../static/assets/css/bootstrap.css"/>
     <link rel="stylesheet" th:href="@{/assets/css/bootstrap-theme.css}"
           href="../static/assets/css/bootstrap-theme.css"/>
@@ -38,11 +38,7 @@
                 <div class="navbar-brand dropdown">
                     <div>Properties</div>
                     <div class="dropdown-content">
-                        <a href="/propertyDetails">Little Bear Lake</a>
-                        <a href="/propertyDetails">Little Bear Lake2</a>
-                        <a href="/propertyDetails">Little Bear Lake3</a>
-                        <a href="/propertyDetails">Little Bear Lake4</a>
-                        <a href="/propertyDetails">Little Bear Lake5</a>
+                        <a href="/propertyDetails">Three Bears Log Cabin</a>
                     </div>
                 </div>
                 <div class="navbar-brand" href="">FAQ</div>
@@ -55,87 +51,82 @@
                 <div id="primary" class="content-area clr">
                     <div id="content" class="site-content clr">
                         <div class="w3-content w3-display-container">
-                            <img class="mySlides" src="../static/assets/img/1.png" style="width:100%">
-                            <img class="mySlides" src="../static/assets/img/2.png" style="width:100%">
-                            <img class="mySlides" src="../static/assets/img/3.png" style="width:100%">
-                            <img class="mySlides" src="../static/assets/img/4.png" style="width:100%">
+                            <img class="mySlides" src="../static/assets/img/1.png">
+                            <img class="mySlides" src="../static/assets/img/2.png">
+                            <img class="mySlides" src="../static/assets/img/3.png">
+                            <img class="mySlides" src="../static/assets/img/4.png">
+                            <div class="somethingForPositioning">
+                                <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                                <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+                            </div>
 
-                            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-                            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
                         </div>
                         <div class="details">
-                            <div class="desc">Description of the property here</div>
+                            <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla volutpat
+                                tortor dapibus turpis congue, eu finibus mauris accumsan. Nunc felis magna, luctus quis
+                                metus elementum, blandit vulputate elit. Sed vestibulum eu dui eget hendrerit. Nulla
+                                maximus nisi eget nunc pretium accumsan. Maecenas egestas tincidunt bibendum. Praesent
+                                a diam libero. Nulla non nibh diam. In blandit, eros nec faucibus ullamcorper, turpis
+                                magna porttitor eros, porttitor ultricies leo odio nec velit. Quisque sit amet
+                                consectetur nisl. Aliquam ac est vulputate, malesuada quam a, aliquam odio.
+                                Morbi mattis commodo tortor eget condimentum.</div>
                             <div id="map"></div>
                         </div>
-                    </div><!-- #content -->
 
+                        <div class="bookBtn">
+                            <a class="btn btn-primary"
+                               href="https://www.airbnb.com" target="_blank">BOOK NOW</a>
+                        </div>
+                        <!--TODO: change this to something better-->
+                        &nbsp;
+                        <div>
+                            <p class="toggle-heading">
+                                <button class="toggle btn btn-primary glyphicon collapsed" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                    Amenities
+                                </button>
+                            </p>
+                            <div class="toggle-open collapse" id="collapseExample">
+                                <div class="card card-block">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                                </div>
+                            </div>
+                            <p class="toggle-heading">
+                                <button class="toggle btn btn-primary glyphicon collapsed" type="button" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+                                    Current Rates
+                                </button>
+                            </p>
+                            <div class="toggle-open collapse" id="collapseExample2">
+                                <div class="card card-block">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                                </div>
+                            </div>
+                            <p class="toggle-heading">
+                                <button class="toggle btn btn-primary glyphicon collapsed" type="button" data-toggle="collapse" data-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample">
+                                    Calendar if I can manage
+                                </button>
+                            </p>
+                            <div class="toggle-open collapse" id="collapseExample3">
+                                <div class="card card-block">
+                                    Which I don't think I can because AirBnB are dicks and dont open up the API for their calendar data
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- #content -->
                 </div><!-- #primary -->
             </div><!-- .container -->
         </main><!-- #main-content -->
         <footer id="footer" class="site-footer" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
-            <div id="footer-inner" class="container clr">
-                <div id="footer-widgets" class="wpex-row clr single-col-footer gap-30">
-                    <div class="footer-box span_1_of_1 col col-1">
-                        <div class="footer-widget widget_text clr">
-                            <div class="textwidget"><p><a
-                                    href="http://www.bbb.org/western-michigan/business-reviews/vacation-rentals/up-north-lake-houses-in-johannesburg-mi-38163943#sealclick"><img
-                                    src="http://upnorthlakehouses.com/wp-content/uploads/2016/11/seal-for-38163943.png"></a>
-                            </p>
-                                <p><font color="ffffff"><br/>
-                                    Up North Lake Houses - Gaylord Snowmobile Lodging at its finest!</p>
-                                <p>
-                                    Start your family tradition today, by booking one of our premium lake houses. Our
-                                    vacation rentals are located in Johannesburg, MI, which is just a few miles from the
-                                    city of Gaylord. Each property has 3 bedrooms and 2 bathrooms, and can sleep 9
-                                    guests. Our central location also makes for a perfect (all-season) vacation
-                                    destination, as we are just an hour drive to several great places to visit – such as
-                                    Mackinac Island, Traverse City, and Petosky. </p>
-                                <p> In addition, Gaylord is known as the Golf Mecca of the mid-west. There are over 25
-                                    golf courses nearby for the golf enthusiast. Our properties are clean and
-                                    meticulously maintained. Our lake houses are situated upon amazing lakes and are
-                                    near ATV, snowmobiling, biking and hiking trails. Don’t wait. Make your reservations
-                                    today!</p>
-                                <p>Gaylord, MI - Area Visitor Guide</color> - <a
-                                        href="http://www.gaylordmichigan.net/area-guides-52/">Click here</a></p>
-                            </div>
-                        </div>
-                    </div><!-- .footer-one-box -->
-                </div><!-- #footer-widgets -->
-            </div><!-- #footer-widgets -->
+            <div id="footer-bottom" class="clr">
+                <p>&copy; 2017 MASNAE</p>
+            </div><!-- #footer-bottom -->
         </footer><!-- #footer -->
-        <div id="footer-bottom" class="clr">
-            <div id="footer-bottom-inner" class="container clr">
-                <div id="copyright" class="clr" role="contentinfo">
-                    Copyright © 2014-2016, Dove Properties, LLC
-                </div><!-- #copyright -->
-                <div id="footer-bottom-menu" class="clr">
-                    <div class="menu-external-links-container">
-                        <ul id="menu-external-links" class="menu">
-                            <li id="menu-item-247"
-                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-247"><a
-                                    target="_blank" href="http://www.snowmancam.com/">Snowman Cam</a></li>
-                            <li id="menu-item-248"
-                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-248"><a
-                                    target="_blank" href="http://gaylordmichigan.net/">Tourism Info</a></li>
-                            <li id="menu-item-249"
-                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-249"><a
-                                    target="_blank" href="http://www.fishweb.com/recreation/snowmobile/trails/">Trail
-                                Reports</a></li>
-                            <li id="menu-item-250"
-                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-250"><a
-                                    target="_blank" href="http://www.gaylordmichigan.net/rentals-85/">Recreation
-                                Rentals</a></li>
-                        </ul>
-                    </div>
-                </div><!-- #footer-bottom-menu -->
-            </div><!-- #footer-bottom-inner -->
-        </div><!-- #footer-bottom -->
     </div><!-- #wrap -->
 </div><!-- .outer-wrap -->
 
 
 <script th:src="@{/assets/js/jquery-1.11.2.min.js}" src="../static/assets/js/jquery-1.11.2.min.js"></script>
 <script th:src="@{/assets/js/bootstrap.js}" src="../static/assets/js/bootstrap.js"></script>
+<script th:src="@{/assets/js/index.js}" src="../static/assets/js/index.js"></script>
 <script type="text/javascript" src="../static/assets/js/slideshow.js"></script>
 <script type="text/javascript" src="../static/assets/js/googleMap.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgc0Z8PT85rsE7lZaNw04rEr8ThMT9UBY&callback=myMap"></script>

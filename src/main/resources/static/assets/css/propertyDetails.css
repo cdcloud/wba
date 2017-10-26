@@ -13,3 +13,18 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+
+.mySlides {
+    width:100%;
+}
+
+/* Icon when the collapsible content is shown */
+.toggle:after {
+    content: "\e259";
+    float: right;
+    margin-left: 15px;
+}
+/* Icon when the collapsible content is hidden */
+.toggle.collapsed:after {
+    content: "\e260";
+}
