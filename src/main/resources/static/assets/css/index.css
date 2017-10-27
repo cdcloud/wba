@@ -66,6 +66,8 @@
     background-color: #3e8e41;
 }
 
+a.menu_links { cursor: pointer; }
+
 html
 {
     padding: 10px;
