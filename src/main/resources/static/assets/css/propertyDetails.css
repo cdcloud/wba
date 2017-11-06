@@ -14,8 +14,13 @@
     justify-content: center;
 }
 
+.details p {
+    font-family: helloHappyDays;
+    font-size: 20px;
+}
+
 .mySlides {
-    width:100%;
+    width: auto;
 }
 
 /* Icon when the collapsible content is shown */

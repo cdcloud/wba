@@ -3,6 +3,17 @@
     margin-left: 0px;
 }
 
+.socialRow {
+    background-color: #33444d;
+    height: 50px;
+    color: white;
+}
+
+.logoRow {
+    background-color: #ffffe6;
+    height: 100px
+}
+
 .navbar {
     margin-bottom: 0;
 }
@@ -22,19 +33,50 @@
     text-align: center;
 }
 
-.propPic {
+.activities {
     height: 400px;
     width: 400px;
-    background-image: url("https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/21430567_10212227850084473_579484741268976431_n.jpg?oh=aaa94266bf163ff76c97fa75d89bfc3c&oe=5A755AC0");;
-    background-size: contain;
+}
+
+.activities.fishing {
+    background-image: url("../img/boy_fishing_dock.jpg");;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.activities.boating {
+    background-image: url("../img/trev_skiing.jpg");;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.activities.local {
+    background-image: url("../img/grand_local_attractions.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .jumbotron {
     background-repeat: no-repeat;
-    background-image: url("http://upnorthlakehouses.com/wp-content/uploads/2016/12/SAM_0218.jpg");
+    background-image: url('../img/lake_dusk_landscape.jpg');
     background-size: cover;
-    background-position: center center;
+    background-position: center 75%;
     height: 500px;
+    color: white;
+}
+
+.jumbotronContainer {
+    background-color: rgba(0, 0, 0, .5);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-align: center;
+    font-family: helloBigSky;
+}
+
+.learnBtn {
+    background: darkgray;
     color: white;
 }
 
@@ -70,11 +112,29 @@ a.menu_links { cursor: pointer; }
 
 html
 {
-    padding: 10px;
+    /*padding: 10px;*/
     margin-left: 5%;
     margin-right: 5%;
+    background: url("../img/paper_tree_background.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+html * {
+    font-family: helloBigSky; !important;
 }
 
 footer p {
     text-align: center;
+}
+
+@font-face {
+    font-family: "helloBigSky";
+    src: url("../fonts/HelloBigSky.ttf");
+}
+
+@font-face {
+    font-family: "helloHappyDays";
+    src: url("../fonts/HelloHappyDays.ttf");
 }
