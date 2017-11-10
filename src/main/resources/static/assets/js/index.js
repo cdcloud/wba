@@ -9,10 +9,10 @@ $(document).ready(function () {
 
     function scroll() {
         if ($(window).scrollTop() >= origOffsetY) {
-            $('.navbar').addClass('navbar-fixed-top');
+            $('.navbar').addClass('navbar-fixed-top navbarFixedMargin');
             $('.content').addClass('menu-padding');
         } else {
-            $('.navbar').removeClass('navbar-fixed-top');
+            $('.navbar').removeClass('navbar-fixed-top navbarFixedMargin');
             $('.content').removeClass('menu-padding');
         }
 

@@ -19,9 +19,28 @@
     font-size: 20px;
 }
 
-.mySlides {
-    width: auto;
+.imgSlides {
+    width:auto;
 }
+
+.mySlides {
+    margin: auto;
+    padding: 10px;
+    max-width:1140px;
+    max-height: 700px;
+}
+
+.imgBtns {
+    margin: auto;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    max-width: 80px;
+}
+
 
 /* Icon when the collapsible content is shown */
 .toggle:after {
