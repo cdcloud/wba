@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Three Bears Log Cabin</title>
+    <link rel="stylesheet" th:href="@{/assets/css/bootstrap.css}" href="../static/assets/css/bootstrap.css"/>
+    <link rel="stylesheet" th:href="@{/assets/css/bootstrap-theme.css}"
+          href="../static/assets/css/bootstrap-theme.css"/>
+    <link rel="stylesheet" th:href="@{/assets/css/index.css}" href="../static/assets/css/index.css"/>
+</head>
+<body>
+
+<div class="row margFix">
+    <div class="col-md-12 socialRow">
+        <div class="row">
+            <div class="col-md-6">Contact Us!</div>
+            <div class="col-md-6">
+                <div>Email: masnae.ventures@gmail.com</div>
+                <div>Phone: +1 (214) 966-3263</div>
+            </div>
+        </div>
+        <!--<a href="https://twitter.com/UNLakeHouse" title="Twitter"-->
+        <!--class="wpex-twitter wpex-social-btn wpex-social-btn-3d wpex-social-bg" target="_blank">-->
+        <!--<span class="fa fa-twitter" aria-hidden="true"></span>-->
+        <!--<span class="screen-reader-text">Twitter Profile</span>-->
+        <!--</a>-->
+    </div>
+</div>
+<div class="row margFix">
+    <div class="col-lg-12 logoRow">
+        <img class="logo" src="../static/assets/img/test_logo.png"></img>
+    </div>
+</div>
+
+<nav class="navbar navbar-default">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand menu_links" href="#">Home</a>
+
+        <div class="navbar-brand dropdown">
+            <a class="menu_links">Properties</a>
+            <div class="dropdown-content">
+                <a href="/templates/propertyDetails.html">Three Bears Log Cabin</a>
+            </div>
+        </div>
+        <a class="navbar-brand menu_links" href="/templates/whyus.html">Why Us?</a>
+        <a class="navbar-brand menu_links" href="/templates/faq.html">FAQ</a>
+        <a class="navbar-brand menu_links" href="/templates/thingstodo.html">Things To Do</a>
+    </div>
+</nav>
+
+<main id="main" class="site-main clr" itemprop="mainContentOfPage" itemscope="itemscope"
+      itemtype="http://schema.org/WebPageElement">
+    <div id="content-wrap" class="container clr">
+        <div id="primary" class="content-area clr">
+            <div id="content" class="site-content clr">
+                <div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading center">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="">Groceries and Shopping</a>
+                            </h4>
+                        </div>
+                        <div id="collapse1" class="">
+                            <div class="panel-body center">
+                                <ul>
+                                    <li>
+                                        <a href="http://callofthewildgaylord.com">Glen's Market</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://callofthewildgaylord.com">Walmart</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://callofthewildgaylord.com">Meijer</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default center">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="">Dining</a>
+                            </h4>
+                        </div>
+                        <div id="collapse2" class="">
+                            <div class="panel-body center">
+                                <ul>
+                                    <li>
+                                        <a href="http://callofthewildgaylord.com">Country House Ice Cream</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://callofthewildgaylord.com">Pie</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://callofthewildgaylord.com">Vienna Corners</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default center">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="">Entertainment</a>
+                            </h4>
+                        </div>
+                        <div id="collapse3" class="">
+                            <div class="panel-body center">
+                                <ul>
+                                    <li>
+                                        <a href="http://callofthewildgaylord.com">Call of the Wild</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.visitgaylord.com/gaylord-alpenfest">Gaylord Alpenfest</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.visitgaylord.com/golf-courses/">Golf Courses</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.visitgaylord.com/snowmobile/">Gaylord Snowmobiling</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.northernmicinemas.com/showtimes.cfm?TheaterID=3">Northern Michigan Cinemas - Gaylord</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.familyvideo.com/">Family Video - Gaylord</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.redbox.com/">Redbox</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default center">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="">Laundry</a>
+                            </h4>
+                        </div>
+                        <div id="collapse4" class="">
+                            <div class="panel-body center">
+                                <ul>
+                                    <li>
+                                        <a href="http://callofthewildgaylord.com">Timbertown Laundromat</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- #content -->
+        </div><!-- #primary -->
+    </div><!-- .container -->
+</main><!-- #main-content -->
+
+<footer>
+    <p>&copy; 2017 MASNAE, LLC</p>
+</footer>
+
+</body>
+<script th:src="@{/assets/js/jquery-1.11.2.min.js}" src="../static/assets/js/jquery-1.11.2.min.js"></script>
+<script th:src="@{/assets/js/bootstrap.js}" src="../static/assets/js/bootstrap.js"></script>
+<script th:src="@{/assets/js/index.js}" src="../static/assets/js/index.js"></script>
+</html>

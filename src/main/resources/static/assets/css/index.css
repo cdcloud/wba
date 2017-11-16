@@ -1,12 +1,12 @@
-.margFix {
-    margin-right: 0px;
-    margin-left: 0px;
-}
+/*.margFix {*/
+    /*margin-right: 0px;*/
+    /*margin-left: 0px;*/
+/*}*/
 
-.navbarFixedMargin {
-    margin-left: 5%;
-    margin-right: 5%;
-}
+/*.navbarFixedMargin {*/
+    /*margin-left: 5%;*/
+    /*margin-right: 5%;*/
+/*}*/
 
 .socialRow {
     background-color: #33444d;
@@ -44,19 +44,25 @@
 }
 
 .activities {
-    height: 400px;
-    width: 400px;
+    max-height: 400px;
+    max-width: 400px;
+    min-height: 200px;
+    min-width: 200px;
+}
+
+.attractionsHeader {
+    padding-left: 1%;
 }
 
 .activities.fishing {
-    background-image: url("../img/boy_fishing_dock.jpg");;
+    background-image: url("../img/boy_fishing_dock.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .activities.boating {
-    background-image: url("../img/trev_skiing.jpg");;
+    background-image: url("../img/trev_skiing.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -79,7 +85,7 @@
 }
 
 .jumbotronContainer {
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, .2);
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     text-align: center;
     font-family: helloBigSky;
@@ -118,17 +124,21 @@
     background-color: #3e8e41;
 }
 
+.center {
+    text-align: center;
+}
+
 a.menu_links { cursor: pointer; }
 
 html
 {
-    /*padding: 10px;*/
-    margin-left: 5%;
-    margin-right: 5%;
-    background: url("../img/paper_tree_background.jpg");
-    background-position: right;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    /*!*padding: 10px;*!*/
+    /*margin-left: 5%;*/
+    /*margin-right: 5%;*/
+    /*background: url("../img/paper_tree_background.jpg");*/
+    /*background-position: right;*/
+    /*background-repeat: no-repeat;*/
+    /*background-attachment: fixed;*/
 }
 
 html * {
