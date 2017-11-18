@@ -10,8 +10,9 @@
 
 .socialRow {
     background-color: #33444d;
-    height: 50px;
+    /*height: 50px;*/
     color: white;
+    text-align: right;
 }
 
 .logoRow {
@@ -36,22 +37,25 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
+
 }
 
 .property {
     max-width: 450px;
     text-align: center;
+    min-width: 430px;
 }
 
 .activities {
-    max-height: 400px;
-    max-width: 400px;
-    min-height: 200px;
-    min-width: 200px;
+    min-height: 400px;
+    min-width: 400px;
 }
 
 .attractionsHeader {
     padding-left: 1%;
+    padding-bottom: 1%;
 }
 
 .activities.fishing {
@@ -91,6 +95,10 @@
     font-family: helloBigSky;
 }
 
+.pLearnBtn {
+    padding-bottom:1%;
+}
+
 .learnBtn {
     background: darkgray;
     color: white;
@@ -126,6 +134,11 @@
 
 .center {
     text-align: center;
+}
+
+span.contactInfo {
+    display: flow-root;
+    padding-right: 75px;
 }
 
 a.menu_links { cursor: pointer; }
